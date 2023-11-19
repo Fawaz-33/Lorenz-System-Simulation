@@ -44,7 +44,7 @@ for i in range (len(t)-1):
 # Plot
 
 fig = plt.figure(figsize = (10,10))
-ax = plt.axes(projection="3d")# RK4 Integrator
+ax = plt.axes(projection="3d")
 fig.set_facecolor('black')
 ax.set_facecolor('black')
 ax.grid(False)
